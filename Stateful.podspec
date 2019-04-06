@@ -20,7 +20,10 @@ A minimalistic, thread-safe, non-boilerplate and super easy to use state machine
   s.source           = { :git => 'https://github.com/albertodebortoli/Stateful.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/albertodebo'
 
-  s.ios.deployment_target = '8.0'
+  spec.ios.deployment_target  = '8.0'
+  spec.osx.deployment_target  = '10.13'
+  spec.tvos.deployment_target = '11.2'
+
   s.swift_version = '5.0'
 
   s.source_files = 'Stateful/Classes/**/*.swift'
